@@ -1,33 +1,22 @@
-{% extends "layouts/base-fullscreen.html" %}
+{% extends "layouts/base-error.html" %}
 
-{% block title %} 403 Page {% endblock %}
+{% block title %} 404 Error {% endblock title %}
 
-{% block content %}   
+{% block content %}
 
-    <div class="auth-wrapper">
-        <div class="auth-content">
-            <div class="auth-bg">
-                <span class="r"></span>
-                <span class="r s"></span>
-                <span class="r s"></span>
-                <span class="r"></span>
-            </div>
-            <div class="card">
-                <div class="card-body text-center">
-                    <div class="mb-4">
-                        <i class="feather x-circle"></i>
-                    </div>
-                    <h3 class="mb-4">Error 404</h3>
+    <div class="pos-a t-0 l-0 bgc-white w-100 h-100 d-f fxd-r fxw-w ai-c jc-c pos-r p-30">
+      <div class="mR-60">
+        <img alt="#" src="/static/assets/static/images/404.png">
+      </div>
 
-                    <br />
-
-                    <span class="mb-0 text-muted">
-                        Page not found - <a href="/">Home</a> 
-                    </span>
-
-                </div>
-            </div>
+      <div class="d-f jc-c fxd-c">
+        <h1 class="mB-30 fw-900 lh-1 c-red-500" style="font-size: 60px;">404</h1>
+        <h3 class="mB-10 fsz-lg c-grey-900 tt-c">Oops Page Not Found</h3>
+        <p class="mB-30 fsz-def c-grey-700">The page you are looking for does not exist or has been moved.</p>
+        <div>
+          <a href="/" type="primary" class="btn btn-primary">Go to Home</a>
         </div>
+      </div>
     </div>
 
 {% endblock content %}
