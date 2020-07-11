@@ -2,7 +2,7 @@
 
 > **Open-Source Admin Dashboard** coded in **Flask Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - Features:
 
-- UI Kit: **Adminator** (Free Version) provided by **ColorLib**
+- UI Kit: **Adminator** (Free Version) provided by **[ColorLib](https://appseed.us/agency/colorlib)**
 - SQLite, PostgreSQL, SQLAlchemy ORM
 - Alembic (DB schema migrations)
 - Modular design with **Blueprints**
