@@ -19,8 +19,8 @@ Adminator is a responsive Bootstrap 4 Admin Template. It provides you with a col
 
 > Links
 
-- [Flask Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) - Official product page
-- [Flask Adminator Demo](https://flask-dashboard-adminator.appseed.us/) - LIVE App
+- [Flask Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) - product page
+- [Flask Adminator Demo](https://flask-adminator.appseed-srv1.com/) - LIVE App
 - [Flask Tutorial](https://github.com/app-generator/tutorial-flask) - Getting started with Flask
 
 <br />
