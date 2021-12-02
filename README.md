@@ -21,8 +21,6 @@
 - [Flask Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) - product page
 - [Flask Adminator](https://flask-adminator.appseed-srv1.com/) - LIVE App
 
-<br />
-
 ## Quick Start in [Docker](https://www.docker.com/)
 
 > Get the code
@@ -44,7 +42,7 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 
-![Flask Dashboard Adminator - Starter project coded in Flask.](https://raw.githubusercontent.com/app-generator/flask-dashboard-adminator/master/media/flask-dashboard-adminator-screen.png)
+![Flask Dashboard Adminator - Starter project coded in Flask.](https://user-images.githubusercontent.com/51070104/144363856-2b25a5be-a73e-4b80-aa8a-4ad7fc6e41ef.gif)
 
 <br />
 
