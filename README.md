@@ -21,6 +21,8 @@
 - [Flask Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) - product page
 - [Flask Adminator](https://flask-adminator.appseed-srv1.com/) - LIVE App
 
+<br />
+
 ## Quick Start in [Docker](https://www.docker.com/)
 
 > Get the code
