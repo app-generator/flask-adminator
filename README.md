@@ -6,38 +6,35 @@ Open-source **[Flask Dashboard](https://appseed.us/admin-dashboards/flask)** gen
 
 > Features
 
-- Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
-- DBMS: SQLite, PostgreSQL (production) 
-- DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
-- Modular design with **Blueprints**, simple codebase
+- `Up-to-date dependencies`: **Flask 2.0.1**
+- `DBMS`: SQLite, PostgreSQL (production) 
+- `DB Tools`: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 - Session-Based authentication (via **flask_login**), Forms validation
-- Deployment scripts: Docker, Gunicorn / Nginx, Heroku
-- Support via **Github** and [Discord](https://discord.gg/fZC6hup).
+- `Deployment`: **Docker**, Gunicorn / Nginx, HEROKU
+- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
 > Links
 
-- [Flask Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) - product page
-- [Flask Adminator](https://flask-adminator.appseed-srv1.com/) - LIVE App
+- 👉 [Flask Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) - product page
+- 👉 [Flask Adminator](https://flask-adminator.appseed-srv1.com/) - LIVE App
 
 <br />
 
-## Quick Start in [Docker](https://www.docker.com/)
+## ✨ Quick Start in `Docker`
 
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/flask-dashboard-adminator.git
-$ cd flask-dashboard-adminator
+$ git clone https://github.com/app-generator/flask-adminator.git
+$ cd flask-adminator
 ```
 
 > Start the app in Docker
 
 ```bash
-$ docker-compose pull   # download dependencies 
-$ docker-compose build  # local set up
-$ docker-compose up -d  # start the app 
+$ docker-compose up --build 
 ```
 
 Visit `http://localhost:85` in your browser. The app should be up & running.
@@ -52,8 +49,8 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/flask-dashboard-adminator.git
-$ cd flask-dashboard-adminator
+$ git clone https://github.com/app-generator/flask-adminator.git
+$ cd flask-adminator
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -100,23 +97,23 @@ The project is coded using blueprints, app factory pattern, dual configuration p
    |
    |-- apps/
    |    |
-   |    |-- home/                          # A simple app that serve HTML files
-   |    |    |-- routes.py                 # Define app routes
+   |    |-- home/                           # A simple app that serve HTML files
+   |    |    |-- routes.py                  # Define app routes
    |    |
-   |    |-- authentication/                # Handles auth routes (login and register)
-   |    |    |-- routes.py                 # Define authentication routes  
-   |    |    |-- models.py                 # Defines models  
-   |    |    |-- forms.py                  # Define auth forms (login and register) 
+   |    |-- authentication/                 # Handles auth routes (login and register)
+   |    |    |-- routes.py                  # Define authentication routes  
+   |    |    |-- models.py                  # Defines models  
+   |    |    |-- forms.py                   # Define auth forms (login and register) 
    |    |
    |    |-- static/
-   |    |    |-- <css, JS, images>         # CSS files, Javascripts files
+   |    |    |-- <css, JS, images>          # CSS files, Javascripts files
    |    |
-   |    |-- templates/                     # Templates used to render pages
-   |    |    |-- includes/                 # HTML chunks and components
-   |    |    |    |-- navigation.html      # Top menu component
-   |    |    |    |-- sidebar.html         # Sidebar component
-   |    |    |    |-- footer.html          # App Footer
-   |    |    |    |-- scripts.html         # Scripts common to all pages
+   |    |-- templates/                      # Templates used to render pages
+   |    |    |-- includes/                  # HTML chunks and components
+   |    |    |    |-- navigation.html       # Top menu component
+   |    |    |    |-- sidebar.html          # Sidebar component
+   |    |    |    |-- footer.html           # App Footer
+   |    |    |    |-- scripts.html          # Scripts common to all pages
    |    |    |
    |    |    |-- layouts/                   # Master pages
    |    |    |    |-- base-fullscreen.html  # Used by Authentication pages
@@ -168,8 +165,8 @@ Steps to deploy on **Heroku**
 
 ```bash
 $ # Clone the source code:
-$ git clone https://github.com/app-generator/flask-dashboard-adminator.git
-$ cd flask-dashboard-adminator
+$ git clone https://github.com/app-generator/flask-adminator.git
+$ cd flask-adminator
 $
 $ # Check Heroku CLI is installed
 $ heroku -v
