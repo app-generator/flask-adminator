@@ -7,15 +7,15 @@
       Flask Adminator - {% block title %}{% endblock %} | AppSeed
     </title>
 
-    <link href="{{ ASSETS_ROOT }}/style.css" rel="stylesheet">
+    <link href="{{ config.ASSETS_ROOT }}/style.css" rel="stylesheet">
 
   </head>
   <body class="app">
 
     {% block content %}{% endblock content %}  
   
-    <script type="text/javascript" src="{{ ASSETS_ROOT }}/vendor.js"></script>
-    <script type="text/javascript" src="{{ ASSETS_ROOT }}/bundle.js"></script>
+    <script type="text/javascript" src="{{ config.ASSETS_ROOT }}/vendor.js"></script>
+    <script type="text/javascript" src="{{ config.ASSETS_ROOT }}/bundle.js"></script>
     
   </body>
 </html>
