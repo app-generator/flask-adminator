@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.6] 2022-06-11
+### Fix
+
+- Patch `assets path`
+
+
 ## [1.0.5] 2022-06-11
 ### Improvements
 
