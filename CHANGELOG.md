@@ -1,7 +1,7 @@
 # Change Log
 
 ## [1.0.5] 2022-06-11
-### Initial Release
+### Improvements
 
 - Built with [Adminator Generator](https://appseed.us/generator/adminator/)
   - Timestamp: `2022-06-11 09:29`
