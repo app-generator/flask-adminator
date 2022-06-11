@@ -55,7 +55,7 @@
         }
       }
     </style>
-    <link href="/static/assets/style.css" rel="stylesheet">
+    <link href="{{ ASSETS_ROOT }}/style.css" rel="stylesheet">
 
     <!-- Specific Page CSS goes HERE -->
     {% block stylesheets %}{% endblock stylesheets %}
@@ -115,8 +115,8 @@
 
     </div>
   
-    <script type="text/javascript" src="/static/assets/vendor.js"></script>
-    <script type="text/javascript" src="/static/assets/bundle.js"></script>
+    <script type="text/javascript" src="{{ ASSETS_ROOT }}/vendor.js"></script>
+    <script type="text/javascript" src="{{ ASSETS_ROOT }}/bundle.js"></script>
     
     <!-- Specific Page JS goes HERE -->
     {% block javascripts %}{% endblock javascripts %}
