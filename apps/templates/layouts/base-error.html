@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        Flask Adminator - {% block title %}{% endblock %} | AppSeed
+    </title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/jquery.dataTables.min.css"
+      integrity="sha512-1k7mWiTNoyx2XtmI96o+hdjP8nn0f3Z2N4oF/9ZZRgijyV4omsKOXEnqL1gKQNPy2MTSP9rIEWGcH/CInulptA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link type="text/css" href="{{ config.ASSETS_ROOT }}/css/index.css" rel="stylesheet">
+    
+    <!-- Specific Page CSS goes HERE -->
+    {% block stylesheets %}{% endblock stylesheets %}
+
+</head>
+<body class="app">
+
+    {% block content %}{% endblock content %} 
+
+    {% include 'includes/scripts.html' %}
+
+    <!-- Specific Page JS goes HERE -->
+    {% block javascripts %}{% endblock javascripts %}    
+
+</body>
+</html>

@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.8] 2022-08-11
+### Patch
+
+- Fix Broken Release
+  - wrong Flask codebase was used. 
+
 ## [1.0.7] 2022-08-11
 ### Improvements
 

@@ -1,0 +1,75 @@
+{% extends "layouts/base-authentication.html" %}
+
+{% block title %} Register {% endblock title %}
+
+<!-- Specific CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="peers ai-s fxw-nw h-100vh">
+      <div class="peer peer-greed h-100 pos-r bgr-n bgpX-c bgpY-c bgsz-cv" style='background-image: url("{{ config.ASSETS_ROOT }}/images/bg.jpg")'>
+        <div class="pos-a centerXY">
+          <div class="bgc-white bdrs-50p pos-r" style='width: 120px; height: 120px;'>
+            <img class="pos-a centerXY" src="{{ config.ASSETS_ROOT }}/images/logo.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 peer pX-40 pY-80 h-100 bgc-white scrollable pos-r" style='min-width: 320px;'>
+        
+        <h4 class="fw-300 c-grey-900 mB-40">Adminator - Register</h4>
+
+        {% if msg %}
+            <p class="fw-300 c-grey-900 mB-40">{{ msg | safe }}</p>
+        {% else %}
+            <p class="fw-300 c-grey-900 mB-40">
+              Add your credentials
+            </p>
+        {% endif %}
+
+        {% if success %}
+
+        <div class="mb-3">
+          <a href="{{ url_for('authentication_blueprint.login') }}" class="btn btn-primary">Sign IN</a>
+        </div>
+
+        {% else %}
+
+        <form method="post" action="">
+
+          {{ form.hidden_tag() }}
+
+          <div class="mb-3">
+            <label class="form-label" class="text-normal text-dark">Username</label>
+            {{ form.username(placeholder="Username", class="form-control") }}
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" class="text-normal text-dark">Email Address</label>
+            {{ form.email(placeholder="eMail Address", class="form-control") }}
+          </div>
+          
+          <div class="mb-3">
+            <label class="form-label" class="text-normal text-dark">Password</label>
+            {{ form.password(placeholder="Password", class="form-control", type="password") }}
+          </div>
+          
+          <div class="mb-3">
+            <button type="submit" name="register" class="btn btn-primary">Register</button>
+
+            &nbsp; &nbsp;
+            <span class="text-small font-weight-semibold">Have and account?</span>
+            <a href="{{ url_for('authentication_blueprint.login') }}" class="text-black text-small">Login</a>  
+          </div>
+          
+        </form>
+
+        {% endif %} 
+
+      </div>
+    </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
