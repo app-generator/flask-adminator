@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.9] 2023-10-07
+### Changes
+
+- Silent fallback to SQLite
+- CI/CD for Render
+- Added Missing page
+  - `Page-403.html`
+
 ## [1.0.8] 2022-08-11
 ### Patch
 
