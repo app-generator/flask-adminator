@@ -3,6 +3,7 @@
 ## [1.0.9] 2023-10-07
 ### Changes
 
+- Update Dependencies
 - Silent fallback to SQLite
 - CI/CD for Render
 - Added Missing page
