@@ -223,4 +223,4 @@ The project is coded using blueprints, app factory pattern, dual configuration p
 <br />
 
 ---
-Adminator [Flask](https://app-generator.dev/admin-dashboards/flask/) Integration - Open-Source **Flask** Starter provided by [App Generator](https://app-generator.dev)
+**Adminator [Flask](https://app-generator.dev/admin-dashboards/flask/) Integration** - Open-Source **Flask** Starter provided by [App Generator](https://app-generator.dev).
